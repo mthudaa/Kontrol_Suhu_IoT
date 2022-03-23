@@ -32,7 +32,7 @@ void setup() {
   pinMode(pintu, OUTPUT);
   dht.begin();
   konekwifi();
-  Firebase.begin("kak-assa.firebaseio.com", "FT5haYOkGiL6yJTn91ETrhXgzYS1iethAdGFcMyD");
+  Firebase.begin("url.firebaseio.com", "abcdefghijklmn");
 }
 
 void loop() {
